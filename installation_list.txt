@@ -1,0 +1,11 @@
+git
+python-pip
+python3-pip
+python3
+python
+gcc
+g++
+python3-tk
+python-tk
+python-termcolor
+python3-termcolor
