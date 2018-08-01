@@ -16,10 +16,10 @@ if __name__ == '__main__':
 
     installation_list = open(dir_path, 'r')
     print('\nThe following programs will be installed:\n') 
+    all_programs = ''
     for program in installation_list:
-        print('-' + program.strip())        
+        p = program.strip()
+        all_programs +=  p + ' '
+        print('-' + p)        
     print()
-    installation_list.seek(0)
-        
-    for program in installation_list:
-        os.system('sudo apt-get install -y ' + program)
+    os.system('sudo apt-get install -y ' + all_programs)
