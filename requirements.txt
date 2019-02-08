@@ -1,11 +1,9 @@
-git
-python-pip
-python3-pip
-python3
-python
 gcc
 g++
+git
+python3-pip
+python3
 python3-tk
-python-tk
-python-termcolor
 python3-termcolor
+zsh
+curl
