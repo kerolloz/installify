@@ -7,3 +7,4 @@ python3-tk
 python3-termcolor
 zsh
 curl
+net-tools
