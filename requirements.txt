@@ -8,3 +8,4 @@ python3-termcolor
 zsh
 curl
 net-tools
+geany
