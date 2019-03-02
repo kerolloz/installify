@@ -1,5 +1,5 @@
-# Installer
-### Helpful when you install a new Linux distro and want to get all your programs in one installation
+# Installify
+### Helpful when you install a new Linux distro and want to get all your programs in one click.
 #### Depends on _apt_ package manager
 ## Usage
 `sh installer.sh`
