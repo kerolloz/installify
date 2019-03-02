@@ -13,4 +13,4 @@ The program will:
   - zsh
 * configure git global username and Email
 * install OH-MY-ZSH
-* add kerolloz.zsh-theme
+* add templates
