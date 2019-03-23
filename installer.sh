@@ -21,13 +21,13 @@ read -p 'Git Email: ' email
 git config --global user.email $email
 git config --global user.name $username
 
+clear;
+
+echo "Copying templates!";
+cp -r $BASEDIR/templates/*  ~/Templates/
+
 clear
 echo "Installing oh-my-zsh"
 
 # Installing OH-MY-ZSH
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
-clear;
-
-echo "Copying templates!";
-cp -r $BASEDIR/templates/*  ~/Templates/
