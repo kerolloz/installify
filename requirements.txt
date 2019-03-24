@@ -9,3 +9,5 @@ zsh
 curl
 net-tools
 geany
+libdvdnav4 libdvdread4 gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly libdvd-pkg
+ubuntu-restricted-extras
