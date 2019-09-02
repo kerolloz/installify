@@ -8,7 +8,7 @@ programs=$(cat $BASEDIR/requirements.txt);
 echo "the following programs are going to be installed\n$programs"
 
 # Installing basic programs
-sudo apt-get update;
+sudo apt-get update && sudo apt upgrade;
 sudo apt-get install $programs;
 
 clear
@@ -27,7 +27,3 @@ echo "Copying templates!";
 cp -r $BASEDIR/templates/*  ~/Templates/
 
 clear
-echo "Installing oh-my-zsh"
-
-# Installing OH-MY-ZSH
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"

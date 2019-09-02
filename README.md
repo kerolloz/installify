@@ -1,16 +1,22 @@
-# Installify
-### Helpful when you install a new Linux distro and want to get all your programs using one script.
-#### Depends on _apt_ package manager
+# Installify 📜
+
+A very simple script that installs some important packages for new system. 📦
+
+> **NOTE:** Depends on _`apt`_ package manager
+
 ## Usage
-`sh installer.sh`
-## Behind the scenes
-The program will:
-* install a bunch of packages like:
-  - python3
-  - c++ compiler
-  - git
-  - curl
-  - zsh
-* configure git global username and Email
-* install OH-MY-ZSH
-* add templates
+
+```bash
+wget https://codeload.github.com/kerolloz/installify/zip/master
+unzip master
+cd installify-master
+sh installer.sh
+```
+
+## Behind the scenes 👨‍💻
+
+The script will:
+
+- Install [requirements.txt](./requirements.txt).
+- Configure git global username and email.
+- Add templates for new files.

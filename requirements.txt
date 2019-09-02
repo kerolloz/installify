@@ -1,13 +1,12 @@
 gcc
 g++
 git
-python3-pip
 python3
-python3-tk
-python3-termcolor
-zsh
+python3-pip
 curl
+wget
 net-tools
-geany
+gnome-tweak-tool
+vlc
 libdvdnav4 libdvdread4 gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly libdvd-pkg
 ubuntu-restricted-extras
