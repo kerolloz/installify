@@ -26,4 +26,4 @@ clear;
 echo "Copying templates!";
 cp -r $BASEDIR/templates/*  ~/Templates/
 
-clear
+echo "Done";
