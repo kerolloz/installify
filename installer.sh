@@ -28,7 +28,7 @@ full_upgrade
 sudo apt install $programs -y; 
 # full_upgrade
 
-exit
+#exit
 clear
 echo "Configuring git.."
 
@@ -45,12 +45,3 @@ echo "Copying templates!";
 cp -r $BASEDIR/templates/*  ~/Templates/
 
 echo "Done";
-
-## TODO 
-## install powerline fonts (sudo apt install fonts-powerline) && Fira Code (sudo apt install fonts-firacode)
-## install zsh
-## install oh-my-zsh
-## install spaceship prompt
-## install VSCode (snap)
-## install GitKraken (snap) && fix icon
-## add full_upgrade function to .zshrc 

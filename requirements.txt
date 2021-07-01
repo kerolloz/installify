@@ -8,7 +8,5 @@ wget
 net-tools
 gnome-tweak-tool
 vlc
-software-properties-common
-libdvdnav4 libdvdread4 gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly libdvd-pkg
-ubuntu-restricted-extras
-code
+software-properties-common gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly libdvd-pkg
+

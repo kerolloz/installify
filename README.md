@@ -20,3 +20,12 @@ The script will:
 - Install [requirements.txt](./requirements.txt).
 - Configure git global username and email.
 - Add templates for new files.
+
+## TODO
+
+Add ssh config
+save vscode config
+save tweaks config
+save qterminal config
+add qt5ct to fix QTerminal
+install nvm && nvm install node
