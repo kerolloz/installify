@@ -36,10 +36,10 @@ clear
 echo "Configuring git..."
 
 # Git configuration
-read -p 'Git Username: ' username
+read -p 'Git Author Name: ' author_name
 read -p 'Git Email: ' email
 
 git config --global user.email $email
-git config --global user.name $username
+git config --global user.name $author_name
 
 echo "Done";
