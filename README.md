@@ -10,7 +10,7 @@ A very simple script that installs some important packages for new system. 📦
 wget https://codeload.github.com/kerolloz/installify/zip/master
 unzip master
 cd installify-master
-sh installer.sh
+bash installer.sh
 ```
 
 ## Behind the scenes 👨‍💻
