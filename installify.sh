@@ -24,13 +24,16 @@ function full_upgrade {
 
 full_upgrade
 
-# Installing basic programs
+# Installing software packages
 sudo apt install $programs -y; 
-# full_upgrade
 
-#exit
+clear;
+
+echo "Copying templates..."
+cp -r $BASEDIR/templates/*  ~/Templates/
+
 clear
-echo "Configuring git.."
+echo "Configuring git..."
 
 # Git configuration
 read -p 'Git Username: ' username
@@ -38,10 +41,5 @@ read -p 'Git Email: ' email
 
 git config --global user.email $email
 git config --global user.name $username
-
-clear;
-
-echo "Copying templates!";
-cp -r $BASEDIR/templates/*  ~/Templates/
 
 echo "Done";
