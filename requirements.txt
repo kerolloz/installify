@@ -6,7 +6,7 @@ python3-pip
 curl
 wget
 net-tools
-gnome-tweak-tool
+gnome-tweaks
 vlc
 software-properties-common gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly libdvd-pkg
 
