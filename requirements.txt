@@ -11,3 +11,4 @@ vlc
 software-properties-common gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly libdvd-pkg
 qterminal
 zsh
+neovim
