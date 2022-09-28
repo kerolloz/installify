@@ -12,3 +12,4 @@ software-properties-common gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly li
 qterminal
 zsh
 neovim
+libfuse2
