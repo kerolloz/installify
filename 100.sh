@@ -1,3 +1,4 @@
+#!/bin/bash
 current_day=20
 echo "Today is day #$current_day"
 

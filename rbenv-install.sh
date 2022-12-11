@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "execute the lines in the terminal not as a sciprt"
 exit 1
 

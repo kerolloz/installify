@@ -1,3 +1,4 @@
+#!/bin/bash
 # Older versions of Docker went by the names of docker, docker.io, or docker-engine. Uninstall any such older versions before attempting to install a new version:
 sudo apt remove docker docker-engine docker.io containerd runc
 # Update the apt package index and install packages to allow apt to use a repository over HTTPS:

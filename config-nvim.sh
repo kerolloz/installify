@@ -1,3 +1,4 @@
+#!/bin/bash
 mkdir -p ~/.config/nvim/
 cp ./config/init.vim ~/.config/nvim/
 # Install Vundle

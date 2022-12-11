@@ -1,3 +1,4 @@
+#!/bin/bash
 sudo apt-get update
 sudo apt-get -y install apt-transport-https ca-certificates curl software-properties-common
 
