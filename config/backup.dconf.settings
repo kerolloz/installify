@@ -22,7 +22,7 @@ video-x-resolution=1280
 video-y-resolution=720
 
 [org/gnome/control-center]
-last-panel='user-accounts'
+last-panel='ubuntu'
 window-state=(915, 717, false)
 
 [org/gnome/deja-dup]
@@ -73,10 +73,13 @@ icon-theme='Yaru-prussiangreen'
 show-battery-percentage=true
 
 [org/gnome/desktop/notifications]
-application-children=['org-gnome-settings', 'firefox-firefox', 'qterminal', 'org-gnome-totem', 'org-gnome-texteditor', 'myiphide', 'org-gnome-characters', 'gnome-power-panel', 'gnome-network-panel', 'apport-gtk', 'snap-store-ubuntu-software']
+application-children=['org-gnome-settings', 'firefox-firefox', 'qterminal', 'org-gnome-totem', 'org-gnome-texteditor', 'myiphide', 'org-gnome-characters', 'gnome-power-panel', 'gnome-network-panel', 'apport-gtk', 'snap-store-ubuntu-software', 'code', 'obsidian-obsidian']
 
 [org/gnome/desktop/notifications/application/apport-gtk]
 application-id='apport-gtk.desktop'
+
+[org/gnome/desktop/notifications/application/code]
+application-id='code.desktop'
 
 [org/gnome/desktop/notifications/application/firefox-firefox]
 application-id='firefox_firefox.desktop'
@@ -89,6 +92,9 @@ application-id='gnome-power-panel.desktop'
 
 [org/gnome/desktop/notifications/application/myiphide]
 application-id='myiphide.desktop'
+
+[org/gnome/desktop/notifications/application/obsidian-obsidian]
+application-id='obsidian_obsidian.desktop'
 
 [org/gnome/desktop/notifications/application/org-gnome-characters]
 application-id='org.gnome.Characters.desktop'
@@ -153,6 +159,10 @@ window-state=(700, 500, 26, 23)
 col-6-visible=true
 col-6-width=0
 
+[org/gnome/mutter]
+attach-modal-dialogs=false
+center-new-windows=true
+
 [org/gnome/nautilus/icon-view]
 default-zoom-level='medium'
 
@@ -172,7 +182,7 @@ sleep-inactive-ac-timeout=3600
 sleep-inactive-ac-type='nothing'
 
 [org/gnome/shell]
-favorite-apps=['google-chrome.desktop', 'org.gnome.Nautilus.desktop', 'code.desktop']
+favorite-apps=['google-chrome.desktop', 'org.gnome.Nautilus.desktop', 'code.desktop', 'obsidian_obsidian.desktop']
 had-bluetooth-devices-setup=true
 last-selected-power-profile='performance'
 welcome-dialog-last-shown-version='43.0'
@@ -217,7 +227,7 @@ sort-column='name'
 sort-directories-first=false
 sort-order='ascending'
 type-format='category'
-window-position=(1713, 27)
+window-position=(344, 79)
 window-size=(1231, 902)
 
 [system/locale]
