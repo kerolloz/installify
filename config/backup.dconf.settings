@@ -1,17 +1,32 @@
 [apps/update-manager]
 first-run=false
-launch-count=1
-launch-time=int64 1670599092
+launch-count=4
+launch-time=int64 1672472622
 
 [com/ubuntu/update-notifier]
-release-check-time=uint32 1670599077
+release-check-time=uint32 1671832347
 
 [org/gnome/TextEditor]
 show-line-numbers=true
+style-variant='follow'
 
 [org/gnome/Totem]
 active-plugins=['screenshot', 'apple-trailers', 'rotation', 'mpris', 'save-file', 'autoload-subtitles', 'variable-rate', 'open-directory', 'movie-properties', 'vimeo', 'recent', 'screensaver', 'skipto']
 subtitle-encoding='UTF-8'
+
+[org/gnome/calculator]
+accuracy=9
+angle-units='degrees'
+base=10
+button-mode='basic'
+number-format='automatic'
+show-thousands=false
+show-zeroes=false
+source-currency=''
+source-units='degree'
+target-currency=''
+target-units='radian'
+word-size=64
 
 [org/gnome/cheese]
 burst-delay=1000
@@ -22,8 +37,8 @@ video-x-resolution=1280
 video-y-resolution=720
 
 [org/gnome/control-center]
-last-panel='ubuntu'
-window-state=(915, 717, false)
+last-panel='sound'
+window-state=(915, 717, true)
 
 [org/gnome/deja-dup]
 backend='google'
@@ -51,8 +66,8 @@ exec='/usr/bin/qterminal'
 [org/gnome/desktop/background]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///usr/share/backgrounds/Reflection_by_Juliette_Taka.png'
-picture-uri-dark='file:///usr/share/backgrounds/Reflection_by_Juliette_Taka.png'
+picture-uri='/home/kerolloz/.config/background'
+picture-uri-dark='/home/kerolloz/.config/background'
 primary-color='#000000'
 secondary-color='#000000'
 
@@ -68,12 +83,12 @@ color-scheme='prefer-dark'
 cursor-theme='Yaru'
 enable-hot-corners=true
 font-hinting='slight'
-gtk-theme='Yaru-prussiangreen'
-icon-theme='Yaru-prussiangreen'
+gtk-theme='Yaru-dark'
+icon-theme='Yaru-dark'
 show-battery-percentage=true
 
 [org/gnome/desktop/notifications]
-application-children=['org-gnome-settings', 'firefox-firefox', 'qterminal', 'org-gnome-totem', 'org-gnome-texteditor', 'myiphide', 'org-gnome-characters', 'gnome-power-panel', 'gnome-network-panel', 'apport-gtk', 'snap-store-ubuntu-software', 'code', 'obsidian-obsidian']
+application-children=['org-gnome-settings', 'firefox-firefox', 'qterminal', 'org-gnome-totem', 'org-gnome-texteditor', 'myiphide', 'org-gnome-characters', 'gnome-power-panel', 'gnome-network-panel', 'apport-gtk', 'snap-store-ubuntu-software', 'code', 'obsidian-obsidian', 'gitkraken-url-handler', 'org-kde-kdenlive', 'google-chrome', 'kazam', 'vlc', 'update-manager', 'org-gnome-nautilus', 'teams']
 
 [org/gnome/desktop/notifications/application/apport-gtk]
 application-id='apport-gtk.desktop'
@@ -84,11 +99,20 @@ application-id='code.desktop'
 [org/gnome/desktop/notifications/application/firefox-firefox]
 application-id='firefox_firefox.desktop'
 
+[org/gnome/desktop/notifications/application/gitkraken-url-handler]
+application-id='gitkraken-url-handler.desktop'
+
 [org/gnome/desktop/notifications/application/gnome-network-panel]
 application-id='gnome-network-panel.desktop'
 
 [org/gnome/desktop/notifications/application/gnome-power-panel]
 application-id='gnome-power-panel.desktop'
+
+[org/gnome/desktop/notifications/application/google-chrome]
+application-id='google-chrome.desktop'
+
+[org/gnome/desktop/notifications/application/kazam]
+application-id='kazam.desktop'
 
 [org/gnome/desktop/notifications/application/myiphide]
 application-id='myiphide.desktop'
@@ -99,6 +123,9 @@ application-id='obsidian_obsidian.desktop'
 [org/gnome/desktop/notifications/application/org-gnome-characters]
 application-id='org.gnome.Characters.desktop'
 
+[org/gnome/desktop/notifications/application/org-gnome-nautilus]
+application-id='org.gnome.Nautilus.desktop'
+
 [org/gnome/desktop/notifications/application/org-gnome-settings]
 application-id='org.gnome.Settings.desktop'
 
@@ -108,11 +135,23 @@ application-id='org.gnome.TextEditor.desktop'
 [org/gnome/desktop/notifications/application/org-gnome-totem]
 application-id='org.gnome.Totem.desktop'
 
+[org/gnome/desktop/notifications/application/org-kde-kdenlive]
+application-id='org.kde.kdenlive.desktop'
+
 [org/gnome/desktop/notifications/application/qterminal]
 application-id='qterminal.desktop'
 
 [org/gnome/desktop/notifications/application/snap-store-ubuntu-software]
 application-id='snap-store_ubuntu-software.desktop'
+
+[org/gnome/desktop/notifications/application/teams]
+application-id='teams.desktop'
+
+[org/gnome/desktop/notifications/application/update-manager]
+application-id='update-manager.desktop'
+
+[org/gnome/desktop/notifications/application/vlc]
+application-id='vlc.desktop'
 
 [org/gnome/desktop/peripherals/keyboard]
 numlock-state=true
@@ -131,7 +170,7 @@ report-technical-problems=true
 [org/gnome/desktop/screensaver]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///usr/share/backgrounds/Reflection_by_Juliette_Taka.png'
+picture-uri='file:///usr/share/backgrounds/Kinetic_Kudu_by_Joshua_T_dark.jpg'
 primary-color='#000000'
 secondary-color='#000000'
 
@@ -139,6 +178,7 @@ secondary-color='#000000'
 sort-order=['org.gnome.Contacts.desktop', 'org.gnome.Documents.desktop', 'org.gnome.Nautilus.desktop']
 
 [org/gnome/desktop/sound]
+allow-volume-above-100-percent=false
 event-sounds=true
 
 [org/gnome/evince/default]
@@ -149,11 +189,11 @@ migrated=true
 
 [org/gnome/gnome-system-monitor]
 current-tab='resources'
-maximized=false
+maximized=true
 network-total-in-bits=false
 show-dependencies=false
 show-whose-processes='user'
-window-state=(700, 500, 26, 23)
+window-state=(1920, 1053, 0, 27)
 
 [org/gnome/gnome-system-monitor/disktreenew]
 col-6-visible=true
@@ -174,15 +214,29 @@ search-view='list-view'
 [org/gnome/nautilus/window-state]
 initial-size=(890, 550)
 
+[org/gnome/nm-applet/eap/02a4b998-9944-4cdf-8675-9874a97d5272]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
 [org/gnome/settings-daemon/plugins/color]
 night-light-enabled=true
+night-light-schedule-automatic=false
+night-light-schedule-from=6.0
+
+[org/gnome/settings-daemon/plugins/media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Shift><Control><Alt>j'
+command='/home/kerolloz/bin/center_active_window.py'
+name='Center Current Window'
 
 [org/gnome/settings-daemon/plugins/power]
 sleep-inactive-ac-timeout=3600
 sleep-inactive-ac-type='nothing'
 
 [org/gnome/shell]
-favorite-apps=['google-chrome.desktop', 'org.gnome.Nautilus.desktop', 'code.desktop', 'obsidian_obsidian.desktop']
+favorite-apps=['google-chrome.desktop', 'org.gnome.Nautilus.desktop', 'code.desktop', 'appimagekit_157e16fa70d454ad8e1aeeda7d3374cd-obsidian.desktop']
 had-bluetooth-devices-setup=true
 last-selected-power-profile='performance'
 welcome-dialog-last-shown-version='43.0'
@@ -195,13 +249,17 @@ dock-fixed=false
 arrangeorder='NAME'
 keep-arranged=true
 keep-stacked=true
+show-home=true
 sort-special-folders=true
 
 [org/gnome/software]
-check-timestamp=int64 1670745858
+check-timestamp=int64 1672653308
 
 [org/gnome/system/location]
 enabled=false
+
+[org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+palette=['rgb(0,0,0)', 'rgb(170,0,0)', 'rgb(0,170,0)', 'rgb(170,85,0)', 'rgb(0,0,170)', 'rgb(170,0,170)', 'rgb(0,170,170)', 'rgb(170,170,170)', 'rgb(85,85,85)', 'rgb(255,85,85)', 'rgb(85,255,85)', 'rgb(255,255,85)', 'rgb(85,85,255)', 'rgb(255,85,255)', 'rgb(85,255,255)', 'rgb(255,255,255)']
 
 [org/gtk/gtk4/settings/file-chooser]
 date-format='regular'
@@ -227,7 +285,7 @@ sort-column='name'
 sort-directories-first=false
 sort-order='ascending'
 type-format='category'
-window-position=(344, 79)
+window-position=(344, 94)
 window-size=(1231, 902)
 
 [system/locale]
