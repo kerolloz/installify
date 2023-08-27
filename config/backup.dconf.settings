@@ -66,8 +66,8 @@ exec='/usr/bin/qterminal'
 [org/gnome/desktop/background]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='/home/kerolloz/.config/background'
-picture-uri-dark='/home/kerolloz/.config/background'
+picture-uri='~/.config/background'
+picture-uri-dark='~/.config/background'
 primary-color='#000000'
 secondary-color='#000000'
 
@@ -228,7 +228,7 @@ custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybin
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
 binding='<Shift><Control><Alt>j'
-command='/home/kerolloz/bin/center_active_window.py'
+command='~/bin/center_active_window.py'
 name='Center Current Window'
 
 [org/gnome/settings-daemon/plugins/power]
