@@ -2,7 +2,7 @@
 
 # Install Neovim
 sudo apt update
-sudo apt install neovim curl unzip -y
+sudo apt install neovim curl unzip bash -y
 
 # Install Oh My Bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
