@@ -20,3 +20,9 @@ The script will:
 - Install packages from [requirements.txt](./requirements.txt) file.
 - Copy files from the `templates` directory to `~/Templates`.
 - Configure git global username and email.
+
+---
+
+## Editors
+
+- Neovim with [LazyVim](https://github.com/LazyVim/LazyVim) config.
