@@ -16,3 +16,5 @@ echo "export GIT_EDITOR=nvim" >> ~/.bashrc
 
 echo "Neovim and Oh My Bash have been installed successfully!"
 
+# Docker
+./docker-install.sh
